@@ -1,0 +1,30 @@
+{
+  "name": "angular-imperavi",
+  "version": "0.1.0",
+  "authors": [
+    "delta54 <support@e154.ru>"
+  ],
+  "description": "Imperavi Redactor WYSIWYG widget (OEM-licensed for Yii 2)",
+  "main": [
+    "assets/redactor.css",
+    "assets/redactor.min.js",
+    "angular-imperavi.js"
+  ],
+  "keywords": [
+    "Imperavi",
+    "Redactor",
+    "WYSIWYG",
+    "directive",
+    "Angularjs",
+    "Yii)"
+  ],
+  "license": "MIT",
+  "homepage": "http://e154.ru",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
