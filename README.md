@@ -1,4 +1,4 @@
-# Angular Imperavi Redactor 10.0.2 directive
+# Angular Imperavi Redactor directive
 
 Created for [e154](http://e154.ru)
 
