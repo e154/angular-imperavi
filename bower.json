@@ -7,7 +7,7 @@
   "description": "Imperavi Redactor WYSIWYG widget (OEM-licensed for Yii 2)",
   "main": [
     "assets/redactor.css",
-    "assets/redactor.min.js",
+    "assets/redactor.js",
     "angular-imperavi.js"
   ],
   "keywords": [
