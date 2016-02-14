@@ -3,7 +3,7 @@
 ###
 
 'use strict'
-debug = true
+debug = false
 
 log = (m) ->
   if debug

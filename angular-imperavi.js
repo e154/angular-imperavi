@@ -8,7 +8,7 @@
   'use strict';
   var debug, log;
 
-  debug = true;
+  debug = false;
 
   log = function(m) {
     if (debug) {
