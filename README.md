@@ -24,6 +24,7 @@ app = angular.module('app', [
 ```javascript
 vm.editor_plugins = ['table', 'video', 'fullscreen', 'clips', 'counter', 'filemanager', 'imagemanager', 'textexpander', 'fontsize', 'textdirection'];
 vm.editor_options = {
+            autoload_plugins: true
             imageUpload: "/api/admin/post/"+vm.paramId+"/attach/image",
             imageManagerJson: "/api/admin/post/"+vm.paramId+"/attach/list"
             };
@@ -36,12 +37,20 @@ vm.model = {
           plugins="post.editor_plugins"
           id="redactor"
           name="redactor"
-          ui:imperavi
+          ui-imperavi
           ng-model="post.model.content_filtered"
           options="post.editor_options">
 </textarea>
 ```
-        
+
+### Minimal
+
+```javascript
+$scope.content_filtered: ""
+
+<textarea ui-imperavi ng-model="content_filtered"></textarea>
+```
+ 
 ### Deps
     
 Asset directory must be visible from the Internet. 
